@@ -1,0 +1,27 @@
+{
+  "name": "rest-shop",
+  "version": "1.0.0",
+  "description": "Simple shop API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/JamiePham001/shop-rest-API.git"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "author": "Jamie Pham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamiePham001/shop-rest-API/issues"
+  },
+  "homepage": "https://github.com/JamiePham001/shop-rest-API#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
