@@ -13,6 +13,8 @@ mongoose.connect('mongodb+srv://jamiepham:'+ process.env.MONGO_ATLAS_PW +'@node-
 }).then(() => console.log('connection provided...'))
 .catch(err =>console.log(err));
 
+mongoose.Promise = global.Promise;
+
 // Middleware
 app.use(morgan('dev'));
 // body parsing
